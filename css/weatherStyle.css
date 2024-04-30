@@ -13,7 +13,9 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: lightpink;
+    background-image: url(../img/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat; 
 
 }
 
@@ -21,9 +23,12 @@ body{
 {
     width: 400px;
     height: min-content;
-    background-color: aquamarine;
+    background-color: rgba(350,350,350,0.6);
     border-radius: 14px;
     padding: 30px;
+	/* background-image: url(img/weather_background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;  */
 
 }
 .search-box
@@ -146,7 +151,7 @@ body{
 
 .location-not-found h1{
     font-size: 20px;
-    color: #6b6b6b;
+    color: lightcoral;
     margin-block-end: 15px;
 }
 .location-not-found img{
